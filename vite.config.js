@@ -9,4 +9,5 @@ export default defineConfig({
     port: process.env.PORT || 3000, // Usa el puerto asignado por Render
     allowedHosts: ['front001pwa.onrender.com'],
   },
+
 });
