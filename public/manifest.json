@@ -1,0 +1,26 @@
+{
+  "name": "pwabicho",
+  "short_name": "pwa",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#33b5ff",
+  "theme_color": "#3399ff",
+  "description": "La pasion del futbol",
+  "icons": [
+    {
+      "src": "/icons/bolas3.png",
+      "sizes": "100x100",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/bolas2.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/bolas1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

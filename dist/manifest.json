@@ -1,0 +1,26 @@
+{
+  "name": "front_pwa",
+  "short_name": "firePWA",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#15110e",
+  "theme_color": "#ff2d00",
+  "description": "This is my PWA",
+  "icons": [
+    {
+      "src": "/icons/fire3.png",
+      "sizes": "100x100",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/fire2.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/fire1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

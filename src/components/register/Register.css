@@ -1,0 +1,184 @@
+.wrapper{
+    width: 420px;
+    padding: 11.5px;
+    background-color: white;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: 0 0 10px rgba(0, 0, 0, .2);
+    color: black;
+    border-radius: 10px 20px;
+  }
+  
+  .wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .wrapper .back-arrow{
+    position: absolute;
+    top: 20px; /* Ajusta según sea necesario */
+    left: 20px; /* Ajusta según sea necesario */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+  }
+  
+  .wrapper .circle{
+    width: 40px; /* Asegura que sea un círculo bien visible */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: black;
+  }
+  
+  .wrapper .icon_back{
+    font-size: 20px; /* Tamaño de la flecha */
+    color: white; /* Para que sea visible dentro del círculo */
+  }
+  
+  .wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+  }
+  
+  .input-box input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    font-size: 14.5px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+  }
+  
+  .input-box input::placeholder {
+    color: black;
+  }
+  
+  .input-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+  }
+  
+  .wrapper button {
+    width: 100%;
+    padding: 12px;
+    background-color: blue;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);  
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .register-link p a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .register-link p a:hover {
+    text-decoration: underline;
+  }
+
+  
+
+  /* Modal overlay */
+.custom-overlay {
+  background-color: rgba(14, 14, 14, 0.6);
+}
+
+/* Modal content */
+.custom-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 450px;
+  border: none;
+  max-width: 90%;
+  text-align: center;
+}
+
+/* Modal title */
+.modal-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+/* Empty state */
+.modal-empty {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* User list */
+.user-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  max-height: 200px;
+  overflow-y: auto;
+  text-align: left;
+}
+
+.user-item {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 6px;
+}
+
+.user-item span {
+  color: #555;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.modal-button {
+  padding: 10.5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.modal-button.primary {
+  background-color: #007bff;
+  color: white;
+  font-weight: 500;
+}
+
+.modal-button.secondary {
+  background-color: #000000;
+  color: white;
+}
